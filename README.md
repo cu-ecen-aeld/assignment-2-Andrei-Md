@@ -15,6 +15,8 @@ Some assignments require further setup to pull in example code or make other cha
 
 ## Testing
 
+![workflow](https://github.com/cu-ecen-aeld/assignment-1-Andrei-Md/actions/workflows/github-actions.yml/badge.svg?branch=assignment1)
+
 The basis of the automated test implementation for this repository comes from [https://github.com/cu-ecen-aeld/assignment-autotest/](https://github.com/cu-ecen-aeld/assignment-autotest/)
 
 The assignment-autotest directory contains scripts useful for automated testing  Use
