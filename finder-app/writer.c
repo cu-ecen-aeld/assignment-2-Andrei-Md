@@ -26,11 +26,6 @@ int main(int argc, char **argv)
         exit(1);
     }
 
-    for (__uint8_t i = 0; i < argc; i++)
-    {
-        syslog(LOG_DEBUG, "arg no %d - %s", i, argv[i]);
-    }
-
     syslog(LOG_DEBUG, "Writing %s to %s", argv[2], argv[1]);
 
     FILE *stream;
